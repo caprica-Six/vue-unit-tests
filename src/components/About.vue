@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>this is the about template</p>
+        <h3>this is the about template</h3>
     </div>
 </template>
 

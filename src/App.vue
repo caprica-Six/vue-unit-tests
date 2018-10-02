@@ -1,7 +1,10 @@
 <template>
   <div id="app">
       <router-link to="/"><img alt="Vue logo" src="./assets/logo.png"></router-link>
-    <HelloWorld msg="Awesome Vue"/>
+
+      <Message msg="Awesome Vue"/>
+      <SectionHeader />
+
       <main>
           <router-view />
       </main>
@@ -9,12 +12,14 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import SectionHeader from "@/components/SectionHeader"
+    import Message from '@/components/Message'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+      SectionHeader,
+      Message
   }
 }
 </script>
