@@ -1,4 +1,4 @@
-# Unit tests with VueCli3 and jest
+# Unit tests with vue-cli-service and jest
 
 ## Project setup
 ```
